@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/udacity"
         android:contentDescription="@string/desc"
-        android:layout_margin="40dp"
+        android:layout_margin="30dp"
         android:id="@+id/logo"/>
     <TextView
         android:layout_width="wrap_content"
@@ -25,7 +25,6 @@
         android:layout_below="@id/logo"
         android:id="@+id/text1"
         android:textStyle="bold"
-        android:autoLink="web"
         />
     <TextView
         android:layout_width="wrap_content"
@@ -60,7 +59,7 @@
         android:layout_height="wrap_content"
         android:text="@string/phone_number"
         android:textStyle="bold"
-        android:layout_marginBottom="1dp"
+        android:layout_marginBottom="10dp"
         android:shadowColor="@color/text_shadow"
         android:shadowDx="1"
         android:shadowDy="1"
@@ -69,4 +68,16 @@
         android:textSize="17sp"
         android:layout_below="@id/text3"
         android:id="@+id/text4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/website"
+        android:paddingLeft="12dp"
+        android:textSize="17sp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@id/text4"
+        android:id="@+id/text5"
+        android:textStyle="bold"
+        android:autoLink="web"
+        />
 </RelativeLayout>

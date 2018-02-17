@@ -5,4 +5,5 @@
     <string name="address2">Mountain View, CA 94043</string>
     <string name="phone_number">650-555-5555</string>
     <string name="desc">Udacity Image</string>
+    <string name="website">www.Udacity.com</string>
 </resources>
