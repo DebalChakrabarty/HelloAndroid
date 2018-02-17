@@ -23,6 +23,10 @@
         android:textSize="17sp"
         android:layout_marginBottom="15dp"
         android:layout_below="@id/logo"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
         android:id="@+id/text1"
         android:textStyle="bold"
         />
