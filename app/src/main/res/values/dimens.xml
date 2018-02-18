@@ -3,5 +3,5 @@
     <dimen name="textview_padding">16dp</dimen>
     <dimen name="text_margin_bottom">10dp</dimen>
     <dimen name="text_size">17sp</dimen>
-    <dimen name="imageview_margin">55dp</dimen>
+    <dimen name="imageview_margin">65dp</dimen>
 </resources>

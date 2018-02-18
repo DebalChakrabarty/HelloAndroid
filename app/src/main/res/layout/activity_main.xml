@@ -10,8 +10,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        tools:context="com.example.ratulchakrabarty.helloandroid.MainActivity"
-        android:backgroundTint="@color/colorPrimary">
+        tools:context="com.example.ratulchakrabarty.helloandroid.MainActivity">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -30,6 +29,9 @@
             android:layout_below="@id/logo"
             android:id="@+id/text1"
             android:textAppearance="@style/codeFont"
+            android:textSize="35sp"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="@dimen/textview_padding"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -40,6 +42,7 @@
             android:layout_below="@id/text1"
             android:textAppearance="@style/codeFont"
             android:id="@+id/text2"
+            android:layout_centerHorizontal="true"
             android:autoLink="map"/>
         <TextView
             android:layout_width="wrap_content"
@@ -50,6 +53,7 @@
             android:layout_below="@id/text2"
             android:textAppearance="@style/codeFont"
             android:id="@+id/text4"
+            android:layout_centerHorizontal="true"
             android:autoLink="phone"/>
         <TextView
             android:layout_width="wrap_content"
@@ -61,6 +65,7 @@
             android:layout_below="@id/text4"
             android:textAppearance="@style/codeFont"
             android:id="@+id/text5"
+            android:layout_centerHorizontal="true"
             android:autoLink="web"
             />
     </RelativeLayout>
