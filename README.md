@@ -4,4 +4,8 @@
 
 A basic app for Udacity Android basics Scholarship challenge 
 
-![Image of app](https://ibb.co/fhJBd7)
+
+---
+
+
+<img src="https://github.com/DebalChakrabarty/HelloAndroid/blob/master/app_screen.jpg" width="300" height="500" />
